@@ -1,33 +1,32 @@
-.App {
+html, body{
+  background-color: #1E1E1E;
   display: flex;
-  text-align: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.App {
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: fit-content;
+  margin-top: 3rem;
 }
 
 .App-header {
-  background-color: #2FC96E;
-  width: 27rem;
   margin-top: 1rem;
   padding:  0rem 1.3rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* text-align: center; */
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(13, 2, 78);
   border-radius: 25px;
 }
 
-.form-frame {
-  background-color: red;
-  width: 50%;
-  height: 50%;
-
-}
 
 
