@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.App-header {
+  background-color: #2FC96E;
+  /* width: 27rem; */
+  margin-top: 1rem;
+  padding:  0rem 1.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(13, 2, 78);
+  border-radius: 25px;
+}
+
+.form-frame {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+
+}
+
+
